@@ -19,3 +19,21 @@ public class CarroCombat extends Carro{
             this.qtdArmamento = MIN_ARMAMENTO;
         }
     }
+    public int getQtdArmamento(){
+        return this.qtdArmamento;
+    }
+
+    public void atirar(){
+        if(this.qtdArmamento > MIN_ARMAMENTO){
+            setQtdArmamento(-1);
+        } else {
+            System.out.println("Sem armamento!");
+        }
+    }
+
+    public void info(){
+        super.info();
+        System.out.printf("Qtd.arm........:%s%n",this.qtdArmamento);
+
+    }
+}
