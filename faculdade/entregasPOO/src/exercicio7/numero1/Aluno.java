@@ -20,6 +20,7 @@ public class Aluno {
     }
 
     public double calcularMedia(){
+
         return (this.notaFis+this.notaGeo+this.notaMat+this.notaPor+this.notaQuim)/5;
     }
 

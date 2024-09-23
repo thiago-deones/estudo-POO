@@ -1,6 +1,7 @@
 package exercicio2;
 
 import java.util.Scanner;
+
 public class ContaBanco {
     public int numero;
     public String nome;
