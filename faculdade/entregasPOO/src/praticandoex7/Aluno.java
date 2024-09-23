@@ -8,9 +8,10 @@ public class Aluno {
     public double nota_fis;
     public double nota_geo;
     public double nota_quim;
+    public Disciplina disciplina;
 
     public Aluno(String nome, int matricula, double nota_fis, double nota_geo, double nota_mat, double
-                 nota_por, double nota_quim) {
+                 nota_por, double nota_quim, Disciplina disciplina) {
         this.nome = nome;
         this.matricul = matricula;
         this.nota_fis = nota_fis;
@@ -18,6 +19,7 @@ public class Aluno {
         this.nota_mat = nota_mat;
         this.nota_por = nota_por;
         this.nota_quim = nota_quim;
+        this.disciplina = disciplina;
     }
 
     public double calcularMedia(){
@@ -26,7 +28,7 @@ public class Aluno {
 
     public String situacaoAluno(){
         double media = calcularMedia();
-        boolean aprovado = media <= 6;
+        boolean aprovado = media >= 6;
         return (aprovado ? "Aprovado" : "Reprovado");
     }
 
@@ -34,5 +36,6 @@ public class Aluno {
         System.out.println("Nome: " + nome);
         System.out.println("Media: " + calcularMedia());
         System.out.println("Situção: " + situacaoAluno());
+        disciplina.exibirDiciplina();
     }
 }
