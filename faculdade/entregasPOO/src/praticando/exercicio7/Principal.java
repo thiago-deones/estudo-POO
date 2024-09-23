@@ -1,4 +1,4 @@
-package praticandoex7;
+package praticando.exercicio7;
 
 public class Principal {
     public static void main(String[] args){

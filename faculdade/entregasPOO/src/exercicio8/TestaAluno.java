@@ -6,7 +6,7 @@ public class TestaAluno {
 
         System.out.println("Nome: " + a1.getNome());
         System.out.println("Idade: " + a1.getIdade());
-        System.out.println("Nome: " + a1.getMatricula());
+        System.out.println("Matricula: " + a1.getMatricula());
 
 
         a1.setNome("Maria");
@@ -16,7 +16,7 @@ public class TestaAluno {
 
         System.out.println("Nome: " + a1.getNome());
         System.out.println("Idade: " + a1.getIdade());
-        System.out.println("Nome: " + a1.getMatricula());
+        System.out.println("Matricula: " + a1.getMatricula());
         
     }
 }

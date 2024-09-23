@@ -1,4 +1,4 @@
-package praticandoex7;
+package praticando.exercicio7;
 
 public class Disciplina {
     public String nome;
