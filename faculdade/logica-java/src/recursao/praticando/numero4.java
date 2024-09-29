@@ -1,11 +1,8 @@
-package recursao.exercicio2;
-
-//Escreva uma função recursiva que encontre o maior elemento em um
-//array de inteiros.
+package recursao.praticando;
 
 import java.util.Scanner;
 
-public class Numero4 {
+public class numero4 {
     public static int maiorN(int[] vetor, int posicao){
         if(posicao == vetor.length -1){
             return vetor[posicao];
