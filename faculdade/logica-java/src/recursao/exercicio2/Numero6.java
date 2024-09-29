@@ -12,11 +12,8 @@ public class Numero6 {
         System.out.println("Digite uma string para verificar se é um palíndromo:");
         String palavra = scanner.nextLine();
 
-        // Remover espaços em branco e converter para letras minúsculas
-        palavra = palavra.replaceAll("\\s+", "").toLowerCase();
-
         // Verifica se a palavra é um palíndromo usando a função recursiva
-        boolean resultado = ehPalindromo(palavra, 0, palavra.length() - 1);
+        boolean resultado = ehPalindromo(palavra, 0, palavra.length()-1);
 
         if (resultado) {
             System.out.printf("A string '%s' é um palíndromo.%n", palavra);
@@ -26,18 +23,17 @@ public class Numero6 {
     }
 
     // Função recursiva que verifica se uma string é um palíndromo
-    public static boolean ehPalindromo(String palavra, int inicio, int fim) {
-        // Caso base: se os índices se cruzarem, significa que a string é um palíndromo
-        if (inicio >= fim) {
+    public static boolean ehPalindromo(String palavra, int i, int f) {
+        if(i == f){
             return true;
         }
-
-        // Verifica se os caracteres nas posições 'inicio' e 'fim' são iguais
-        if (palavra.charAt(inicio) != palavra.charAt(fim)) {
+        if(i == f-1){
+            return palavra.charAt(i) == palavra.charAt(f);
+        }
+        if(palavra.charAt(i) == palavra.charAt(f)){
+            return ehPalindromo(palavra,i+1, f-1);
+        } else {
             return false;
         }
-
-        // Chamada recursiva: avança o índice 'inicio' e reduz o índice 'fim'
-        return ehPalindromo(palavra, inicio + 1, fim - 1);
     }
 }
