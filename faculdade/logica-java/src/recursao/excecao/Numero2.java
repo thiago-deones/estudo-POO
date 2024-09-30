@@ -2,31 +2,28 @@ package recursao.excecao;
 
 //Peça ao usuário para digitar um número. Trate a exceção caso o usuário
 //insira algo que não seja um número.
+
 import java.util.Scanner;
 
 public class Numero2 {
     public static void main(String[] args) {
+        // Criar o objeto Scanner para entrada de dados
         Scanner scanner = new Scanner(System.in);
 
-        try {
-            System.out.print("Digite um número: ");
-            int numero = lerNumero(scanner);
-            System.out.printf("Você digitou: %d%n", numero);
+        // Solicitar que o usuário digite um número
+        System.out.println("Por favor, digite um número: ");
+        String entrada = scanner.nextLine();  // Captura a entrada como uma string
 
-        } catch (NumberFormatException e) {
-            System.out.println("Erro: Você não digitou um número válido.");
-        } finally {
-            scanner.close();
-        }
-    }
-
-    public static int lerNumero(Scanner scanner) throws NumberFormatException {
-        String input = scanner.nextLine();
+        // Tentar converter a entrada para um número
         try {
-            return Integer.parseInt(input);
+            int numero = Integer.parseInt(entrada);  // Tenta converter para número inteiro
+            System.out.println("Você digitou o número: " + numero);
         } catch (NumberFormatException e) {
-            throw new NumberFormatException("Entrada inválida. Não é um número.");
+            // Exceção lançada se a entrada não for um número
+            System.out.println("Erro: '" + entrada + "' não é um número válido.");
         }
 
+        // Fechar o scanner
+        scanner.close();
     }
 }

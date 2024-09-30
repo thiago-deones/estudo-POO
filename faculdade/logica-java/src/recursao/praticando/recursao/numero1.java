@@ -1,4 +1,4 @@
-package recursao.praticando;
+package recursao.praticando.recursao;
 
 import java.util.Scanner;
 
