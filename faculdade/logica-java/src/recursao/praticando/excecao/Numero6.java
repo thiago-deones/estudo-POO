@@ -25,7 +25,9 @@ public class Numero6 {
         int[] array = {1, 2, 3, 4};
 
         try {
-            System.out.println("Digite o primeiro número")
+            System.out.println("Digite o primeiro número");
+            int dividendo = scanner.nextInt();
+            System.out.println("Digite")
         }
     }
 }
