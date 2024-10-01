@@ -22,12 +22,30 @@ public class Numero6 {
 
     public static void main(String[] args) {
         Scanner  scanner = new Scanner(System.in);
-        int[] array = {1, 2, 3, 4};
+
 
         try {
             System.out.println("Digite o primeiro número");
             int dividendo = scanner.nextInt();
-            System.out.println("Digite")
+            System.out.println("Digite o segundo numero");
+            int divisor = scanner.nextInt();
+
+            double resultado = dividir(dividendo, divisor);
+
+            System.out.println(resultado);
+
+            int[] array = {1, 2, 3, 4};
+
+            System.out.println(array[10]);
+        } catch (NumberFormatException e) {
+            System.out.println("Divisão por zero erro" + e.getMessage());
+        } catch (ArrayIndexOutOfBoundsException e) {
+            System.out.println("Indice inexistente");
+        } catch (Exception e) {
+            System.out.println("Erro inesperado");
+        } finally {
+            System.out.println("Fim do programa!!");
+            scanner.close();
         }
     }
 }

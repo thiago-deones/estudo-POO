@@ -41,4 +41,15 @@ public class Contato {
     public void setEmail(String email) {
         this.email = email;
     }
+
+    @Override
+    public String toString() {
+        String s = "[";
+        s += "ID: " + id;
+        s += ", Nome: " + nome;
+        s += ", Telefone: " + telefone;
+        s += ", Email: " + email;
+        s += "]";
+        return s;
+    }
 }
