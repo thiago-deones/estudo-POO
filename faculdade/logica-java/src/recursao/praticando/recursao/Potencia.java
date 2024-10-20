@@ -22,10 +22,11 @@ public class Potencia {
     }
 
     public static int potencia(int base, int potencia) {
-        if(potencia == 0){
-            return 1;
+        if(potencia == 1){
+            return base;
+        } else {
+            potencia = potencia -1;
+            return base * potencia(base, potencia);
         }
-
-        return base * ( base * potencia - 1 );
     }
 }

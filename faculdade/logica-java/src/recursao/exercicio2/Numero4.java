@@ -3,28 +3,24 @@ package recursao.exercicio2;
 //Escreva uma função recursiva que encontre o maior elemento em um
 //array de inteiros.
 
-import java.util.Scanner;
-
 public class Numero4 {
     public static int maiorN(int[] vetor, int posicao){
         if(posicao == vetor.length -1){
             return vetor[posicao];
         }
-        return maiorN(vetor, posicao + 1);
+        int maiorRestante =  maiorN(vetor, posicao + 1);
+
+        if(vetor[posicao] > maiorRestante){
+            return vetor[posicao];
+        } else {
+            return maiorRestante;
+        }
     }
 
     public static void main(String[] args){
-        Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Digite o tamanho do vetor");
-        int tamanho = scanner.nextInt();
 
-        int[] vetor = new int[tamanho];
-
-        System.out.println("Digite os numeros do vetor");
-        for(int i=0; i < vetor.length; i++){
-            vetor[i] = scanner.nextInt();
-        }
+        int[] vetor = {1, 3, 4};
 
 
         System.out.printf("%nO maior numero do vetor é %d", maiorN(vetor,0));

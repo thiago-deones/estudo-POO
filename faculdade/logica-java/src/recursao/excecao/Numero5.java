@@ -7,25 +7,26 @@ public class Numero5 {
         Scanner scanner = new Scanner(System.in);
 
         try {
-            System.out.print("Digite um número para calcular a raiz quadrada: ");
+            // Recebe o número do usuário
+            System.out.println("Digite um número para calcular a raiz quadrada:");
             double numero = scanner.nextDouble();
 
-            double resultado = calcularRaizQuadrada(numero);
-            System.out.printf("A raiz quadrada de %.2f é %.2f%n", numero, resultado);
+            // Função para calcular a raiz quadrada dentro do main
+            if (numero < 0) {
+                throw new IllegalArgumentException("Número negativo: Não é possível calcular a raiz quadrada.");
+            }
+            double resultado = Math.sqrt(numero);
+
+            // Exibe o resultado
+            System.out.println("A raiz quadrada de " + numero + " é: " + resultado);
 
         } catch (IllegalArgumentException e) {
-            System.out.println(e.getMessage());
+            // Captura e trata a exceção IllegalArgumentException
+            System.out.println("Erro: " + e.getMessage());
         } finally {
+            // Fecha o scanner e finaliza o programa
             scanner.close();
-            System.out.println("Programa finalizado!");
+            System.out.println("Fim do programa.");
         }
-    }
-
-    public static double calcularRaizQuadrada(double numero) throws IllegalArgumentException {
-        if (numero < 0) {
-            throw new IllegalArgumentException("Erro: Não é possível calcular a raiz quadrada de um número negativo.");
-        }
-
-        return Math.sqrt(numero);
     }
 }

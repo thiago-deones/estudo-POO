@@ -1,8 +1,11 @@
-package recursao.excecao;
+package reviscaoProva.excecao;
+
+//Crie um programa que tente dividir dois números e realizar operações
+//com um array. Trate as múltiplas exceções usando try-catch
 
 import java.util.Scanner;
 
-public class Numero6 {
+public class N6 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -25,7 +28,7 @@ public class Numero6 {
             System.out.print("Digite um índice para acessar o array: ");
             int indice = scanner.nextInt();
 
-            int valorArray = acessarArray(array, indice);
+            int valorArray = acessarIndice(array, indice);
             System.out.printf("Valor no índice %d: %d%n", indice, valorArray);
 
         } catch (ArithmeticException e) {
@@ -39,17 +42,17 @@ public class Numero6 {
         }
     }
 
-    public static double dividir(int dividendo, int divisor) throws ArithmeticException {
-        if (divisor == 0) {
-            throw new ArithmeticException("Divisão por zero não permitida.");
+    public static double dividir(int num1, int num2) throws ArithmeticException{
+        if(num2 == 0){
+            throw new ArithmeticException("Divisão por zero não permitida");
         }
-        return (double) dividendo / divisor;
+        return (double) num1/num2;
     }
 
-    public static int acessarArray(int[] array, int indice) throws ArrayIndexOutOfBoundsException {
-        if (indice < 0 || indice >= array.length) {
-            throw new ArrayIndexOutOfBoundsException("Índice fora dos limites do array.");
+    public static int acessarIndice(int[] a, int indice) throws ArrayIndexOutOfBoundsException{
+        if(indice < 0 || indice > a.length){
+            throw new ArrayIndexOutOfBoundsException("Número fora do array");
         }
-        return array[indice];
+        return a[indice];
     }
 }
