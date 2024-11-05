@@ -13,7 +13,7 @@ public class HeapSort {
 
         int n = arr.length;
 
-        for (int i = (n / 2) - 1; i >= 0; i --) {
+        for (int i = n / 2 - 1; i >= 0; i--) {
             aplicarHeap(arr, n, i);
         }
 
@@ -26,6 +26,15 @@ public class HeapSort {
             int aux = arr[0];
             arr[0] = arr[i];
             arr[i] = aux;
+
+            aplicarHeap(arr, i, 0);
+        }
+
+        System.out.println("");
+
+        System.out.println("Vetor organizado");
+        for (int i = 0; i < arr.length; i++) {
+            System.out.print(" |" + arr[i]);
         }
     }
 
