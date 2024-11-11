@@ -17,4 +17,5 @@ public class Numero1 {
 
         System.out.println(somaDigito(num));
     }
+
 }
