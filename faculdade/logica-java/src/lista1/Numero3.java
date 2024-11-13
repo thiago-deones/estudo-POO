@@ -1,12 +1,12 @@
 package lista1;
 
-public class Numero2 {
+public class Numero3 {
     public static void main(String[] args) {
-        int[] arr = new int[10];
-        arr[0] = 1;
+        double[] arr = new double[10];
+        arr[0] = 2;
 
         for (int i = 1; i < arr.length; i++) {
-            arr[i] = arr[i - 1] * 2;
+            arr[i] = arr[i-1] / 2;
         }
 
         for (int i = 0; i < arr.length; i++) {
