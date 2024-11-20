@@ -23,7 +23,7 @@ public class AtividadeSeletores {
 
         System.out.println("\nArray original desordenado:");
         for (int value : arr) {
-            System.out.print(value + "| ");
+            System.out.printf("%2d| ", value);
         }
         System.out.println("\n");
 
@@ -53,9 +53,7 @@ public class AtividadeSeletores {
         long endTime = System.nanoTime();
         long duration = endTime - startTime;
 
-        for (int value : arr) {
-            System.out.print(value + "| ");
-        }
+
         System.out.println("\nTempo de execução: " + duration + " nanosegundos\n");
     }
 
@@ -76,9 +74,7 @@ public class AtividadeSeletores {
         long endTime = System.nanoTime();
         long duration = endTime - startTime;
 
-        for (int value : arr) {
-            System.out.print(value + "| ");
-        }
+
         System.out.println("\nTempo de execução: " + duration + " nanosegundos\n");
     }
 
@@ -99,9 +95,7 @@ public class AtividadeSeletores {
         long endTime = System.nanoTime();
         long duration = endTime - startTime;
 
-        for (int value : arr) {
-            System.out.print(value + "| ");
-        }
+
         System.out.println("\nTempo de execução: " + duration + " nanosegundos\n");
     }
 
@@ -114,9 +108,6 @@ public class AtividadeSeletores {
         long endTime = System.nanoTime();
         long duration = endTime - startTime;
 
-        for (int value : arr) {
-            System.out.print(value + "| ");
-        }
         System.out.println("\nTempo de execução: " + duration + " nanosegundos\n");
     }
 
