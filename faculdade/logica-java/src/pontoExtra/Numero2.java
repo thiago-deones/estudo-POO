@@ -20,7 +20,7 @@ public class Numero2 {
 
         ordenarVetor(arr);
 
-        System.out.println("Vetor ordernado: ");
+        System.out.println("\nVetor ordernado: ");
 
         for (int i = 0; i <arr.length; i++){
             System.out.print("| " + arr[i] + " ");
@@ -28,15 +28,13 @@ public class Numero2 {
 
         System.out.println("");
 
-//        int[] resultado = new int[6];
-//
-//        vetorLimpo(resultado, 0);
-//
-//        System.out.println("");
-//
-//        for (int i = 0; i < resultado.length; i++) {
-//            System.out.printf("%2d |", resultado[i]);
-//        }
+        System.out.println("Vetor limpo");
+
+        int[] resultado = vetorLimpo(arr);
+
+        for (int value : resultado) {
+            System.out.printf("%2d |", value);
+        }
 
     }
 
@@ -54,24 +52,26 @@ public class Numero2 {
         }
     }
 
-    public static int vetorLimpo(int[] arr, int posicao) {
-        if (posicao < arr.length) {
-            return arr[posicao];
-        }
+    public static int[] vetorLimpo(int[] arr) {
+        int tamanho = 1;
 
-        int[] resultado = new int[6];
-
-        for (int i = 0; i < arr.length; i++){
-            int igual = arr[i];
-            for (int j = 1; j < arr.length; j++) {
-                if (igual == arr[j]) {
-                    resultado[i] = arr[j];
-                } else {
-                    resultado[i + 1] = arr[j];
-                }
+        for (int i = 1; i < arr.length; i++) {
+            if (arr[i] != arr[i-1]){
+                tamanho++;
             }
         }
 
-        return vetorLimpo(arr, posicao + 1);
+        int[] resultado = new int[tamanho];
+        resultado[0] = arr[0];
+
+        int index = 1;
+
+        for (int i = 1; i < arr.length; i++){
+            if (arr[i] != arr[i - 1]) {
+            resultado[index++] = arr[i];
+        }
+        }
+
+        return resultado;
     }
 }
