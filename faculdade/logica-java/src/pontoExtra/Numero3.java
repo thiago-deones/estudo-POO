@@ -16,7 +16,7 @@ public class Numero3 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("DIgite um numero:");
+        System.out.println("Digite um numero:");
         int n = scanner.nextInt();
 
         System.out.printf("%2d →", n);
@@ -33,6 +33,18 @@ public class Numero3 {
             } else {
                 System.out.print(n);
             }
+
+            System.out.printf(collatz(n));
         }
     }
+
+    public static int collatz(int n) {
+        if (n == 1) {
+            return 0;
+        }
+
+
+    }
 }
+
+
