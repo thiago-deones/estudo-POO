@@ -67,7 +67,7 @@ public class Numero2 {
         int index = 1;
 
         for (int i = 1; i < arr.length; i++){
-            if (arr[i] != arr[i - 1]) {
+            if (arr[i] == arr[i - 1]) {
             resultado[index++] = arr[i];
         }
         }
