@@ -27,7 +27,7 @@ public class CarroCombat extends Carro{
         if(this.qtdArmamento > MIN_ARMAMENTO){
             setQtdArmamento(-1);
         } else {
-            System.out.println("Sem armamento!");
+            System.out.println("Sem armamento!!");
         }
     }
 
