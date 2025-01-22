@@ -1,5 +1,6 @@
 package praticandoAlura.br.com.alura.minhasmusicas.principal;
 
+import br.com.alura.screenmacth.modelos.Filme;
 import praticandoAlura.br.com.alura.minhasmusicas.modelos.MinhasPreferidas;
 import praticandoAlura.br.com.alura.minhasmusicas.modelos.Musica;
 import praticandoAlura.br.com.alura.minhasmusicas.modelos.Podcast;
@@ -35,5 +36,6 @@ public class Principal {
         MinhasPreferidas preferidas = new MinhasPreferidas();
         preferidas.inclui(meuPodcast);
         preferidas.inclui(minhaMusica);
+
     }
 }
