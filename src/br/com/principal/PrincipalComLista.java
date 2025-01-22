@@ -24,8 +24,9 @@ public class PrincipalComLista {
         lista.add(lost);
         for (Titulo item: lista) {
             System.out.println(item);
-            Filme (filme) = item;
-            System.out.println("Classificaçao: " + item.);
+            if (item instanceof Filme filme) {
+                System.out.println("Classificaçao: " + filme.getClassificacao());
+            }
         }
     }
 }
