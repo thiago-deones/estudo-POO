@@ -13,7 +13,7 @@ public class Numero1 {
 
         System.out.println(" ");
 
-        System.out.println("Numeros impares");
+        System.out.println("Numeros impares!!");
         for (int i = 0; i < arr.length; i++) {
             if (arr[i] % 2 != 0) {
                 System.out.print(arr[i] + " ");
