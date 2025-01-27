@@ -1,4 +1,4 @@
-package Alura.src.br.com.alura.screenmacth.calculos;
+package br.com.alura.screenmacth.calculos;
 
 import br.com.alura.screenmacth.modelos.Titulo;
 

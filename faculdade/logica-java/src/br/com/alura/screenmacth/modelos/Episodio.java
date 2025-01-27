@@ -1,6 +1,6 @@
-package Alura.src.br.com.alura.screenmacth.modelos;
+package br.com.alura.screenmacth.modelos;
 
-import Alura.src.br.com.alura.screenmacth.calculos.Classificavel;
+import br.com.alura.screenmacth.calculos.Classificavel;
 
 public class Episodio implements Classificavel {
     private int numero;

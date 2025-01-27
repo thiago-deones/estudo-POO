@@ -1,4 +1,4 @@
-package Alura.src.br.com.principal;
+package br.com.principal;
 
 import br.com.alura.screenmacth.modelos.Filme;
 import br.com.alura.screenmacth.modelos.Serie;
