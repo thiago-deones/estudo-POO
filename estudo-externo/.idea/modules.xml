@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/MSN/MSN.iml" filepath="$PROJECT_DIR$/MSN/MSN.iml" />
+      <module fileurl="file://$PROJECT_DIR$/abstracao/abstracao.iml" filepath="$PROJECT_DIR$/abstracao/abstracao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/autodromo/autodromo.iml" filepath="$PROJECT_DIR$/autodromo/autodromo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/calculadora-java/calculadora-java.iml" filepath="$PROJECT_DIR$/calculadora-java/calculadora-java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/carro-combate/carro-combate.iml" filepath="$PROJECT_DIR$/carro-combate/carro-combate.iml" />
+      <module fileurl="file://$PROJECT_DIR$/conta-bancaria/conta-bancaria.iml" filepath="$PROJECT_DIR$/conta-bancaria/conta-bancaria.iml" />
+      <module fileurl="file://$PROJECT_DIR$/desafio-iphone/desafio-iphone.iml" filepath="$PROJECT_DIR$/desafio-iphone/desafio-iphone.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/estudo-externo.iml" filepath="$PROJECT_DIR$/.idea/estudo-externo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/oo/oo.iml" filepath="$PROJECT_DIR$/oo/oo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/servico-mensagem/servico-mensagem.iml" filepath="$PROJECT_DIR$/servico-mensagem/servico-mensagem.iml" />
+      <module fileurl="file://$PROJECT_DIR$/veiculo/veiculo.iml" filepath="$PROJECT_DIR$/veiculo/veiculo.iml" />
+    </modules>
+  </component>
+</project>
