@@ -7,5 +7,12 @@ public class Principal {
 
         System.out.println(nico.getBonificacao());
         System.out.println(nico.getNome());
+
+        Gerente g1 = new Gerente("Pedro", "123-435-345-76", 5000);
+        g1.autentica(2222);
+
+        System.out.println(g1.);
+        System.out.println();
+        System.out.println();
     }
 }
