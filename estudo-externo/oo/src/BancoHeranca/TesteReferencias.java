@@ -3,7 +3,9 @@ package BancoHeranca;
 public class TesteReferencias {
     public static void main(String[] args) {
 
-        Gerente g1 = new Gerente("marcos","13214",3000);
+        Gerente g1 = new Gerente();
+        g1.setNome("Pedro");
+        g1.setSalario(10000);
         EditorVideo e1 = new EditorVideo("Gabi", "981298739", 2500);
 
 
