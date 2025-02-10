@@ -1,10 +1,12 @@
 package BancoHeranca;
 
 public class Sistema {
+    private int senha = 2222;
 
     public void autentica(Gerente g) {
-        int senha = 2222;
-        boolean autenticou = g.autentica(senha);
+
+        boolean autenticou = g.autentica(this.senha);
+
         if (autenticou) {
             System.out.println("Acesso liberado");
         } else {

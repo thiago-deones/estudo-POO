@@ -1,3 +1,5 @@
+package iphone;
+
 public class Iphone {
     private Musica reprodutorMusical;
     private Telefone aparelhoTelefonico;

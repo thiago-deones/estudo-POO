@@ -1,6 +1,6 @@
 package BancoHeranca;
 
-public class Gerente extends Funcionario {
+public class Gerente extends Funcionario implements Autenticavel {
 
     private int senha;
 
@@ -8,15 +8,19 @@ public class Gerente extends Funcionario {
         super(nome, cpf, salario);
     }
 
-    public boolean autentica(int senha) {
-        if (this.senha == senha) {
-            return true;
-        }
-        return false;
+    @Override
+    public void setSenha(int senha){
+        this.senha = senha;
     }
 
-    public void setSenha(int senha) {
-        this.senha = senha;
+    @Override
+    public boolean autentica(int senha){
+
+        if(this.senha == senha){
+            return true;
+        } else {
+            return false;
+        }
     }
 
     public double getBonificacao() {

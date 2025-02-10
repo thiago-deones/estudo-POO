@@ -1,3 +1,5 @@
+package iphone;
+
 public class Internet {
 
     public void navegar(String url) {

@@ -1,3 +1,5 @@
+package iphone;
+
 public class Telefone {
     public void fazerChamada(String numero) {
         System.out.println("Chamando o número: " + numero);
