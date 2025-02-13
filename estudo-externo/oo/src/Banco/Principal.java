@@ -5,7 +5,11 @@ public class Principal {
         Conta primeiraConta = new Conta(123, 321);
 
         primeiraConta.deposita(200);
-        primeiraConta.saca(210);
+        try {
+            primeiraConta.saca(210);
+        } catch (SaldoInsuficienteException e) {
+            System.out.println("O saldo é de " + e.getMessage());
+        }
 
         System.out.println(primeiraConta.getSaldo());
     }
