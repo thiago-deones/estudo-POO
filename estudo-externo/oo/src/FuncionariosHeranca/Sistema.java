@@ -1,4 +1,4 @@
-package BancoHeranca;
+package FuncionariosHeranca;
 
 public class Sistema {
     private int senha = 2222;

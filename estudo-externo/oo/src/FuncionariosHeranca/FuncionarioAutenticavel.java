@@ -1,4 +1,4 @@
-package BancoHeranca;
+package FuncionariosHeranca;
 
 public abstract class FuncionarioAutenticavel extends Funcionario{
 

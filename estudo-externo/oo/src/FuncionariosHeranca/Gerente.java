@@ -1,4 +1,4 @@
-package BancoHeranca;
+package FuncionariosHeranca;
 
 public class Gerente extends Funcionario implements Autenticavel {
 

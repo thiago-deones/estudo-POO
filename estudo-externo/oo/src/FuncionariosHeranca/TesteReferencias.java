@@ -1,4 +1,4 @@
-package BancoHeranca;
+package FuncionariosHeranca;
 
 public class TesteReferencias {
     public static void main(String[] args) {

@@ -38,22 +38,21 @@ public class Conta {
         this.numero = numero;
     }
 
-    public boolean saca(double valor) {
-        if (valor < saldo) {
-            this.saldo -= valor;
-            return true;
-        } else {
-            return false;
+    public void saca(double valor) {
+
+        if (valor > saldo) {
+            throw new SaldoInsuficienteException("Saldo: " + this.saldo + ", Valor: " + valor);
         }
+            this.saldo -= valor;
+
+
     }
 
-    public boolean transfere(double valor, Conta destino) {
-        if (this.saldo >= valor) {
-            this.saldo -= valor;
-            destino.deposita(valor);
-            return true;
-        }
-        return false;
+    public void transfere(double valor, Conta destino) {
+        this.saca(valor);
+
+        destino.deposita(valor);
+
     }
 
     public double getSaldo() {

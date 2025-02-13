@@ -1,6 +1,6 @@
 package Banco;
 
-import BancoHeranca.Autenticavel;
+import FuncionariosHeranca.Autenticavel;
 
 public class Cliente  implements Autenticavel {
 

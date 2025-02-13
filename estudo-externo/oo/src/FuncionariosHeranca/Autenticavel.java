@@ -1,4 +1,4 @@
-package BancoHeranca;
+package FuncionariosHeranca;
 
 //contrato Autenticavel
 //quem assina esse contrato, precisa implementar

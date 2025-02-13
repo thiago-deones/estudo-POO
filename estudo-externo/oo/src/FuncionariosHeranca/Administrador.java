@@ -1,11 +1,18 @@
-package BancoHeranca;
+package FuncionariosHeranca;
 
-public class Cliente implements Autenticavel {
+public class Administrador extends Funcionario implements Autenticavel{
+
+    private AutentucacaoUtil  autenticador;
+
+    public Administrador() {
+        this.autenticador = new AutentucacaoUtil();
+    }
 
     private int senha;
-    private AutentucacaoUtil autenticador;
-    public  Cliente() {
-        this.autenticador = new AutentucacaoUtil();
+
+    @Override
+    public double getBonificacao() {
+        return 50;
     }
 
     @Override
