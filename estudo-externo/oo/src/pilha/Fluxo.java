@@ -19,7 +19,9 @@ public class Fluxo {
             System.out.println(i);
             try {
                 int a = i/0;
-            } catch (ArithmeticException ex) {
+            } catch (ArithmeticException | NullPointerException ex) {
+                String sm = ex.getMessage();
+                System.out.println(sm);
                 System.out.println("ArithmeticException (divisão por zero não é permitida)");
             }
         }
