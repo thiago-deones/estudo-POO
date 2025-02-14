@@ -1,5 +1,9 @@
 package Banco;
 
+/**
+ * implementando comentarios nas classes
+ * @author thiago deones
+ */
 public class Principal {
     public static void main(String[] args) {
         Conta primeiraConta = new Conta(123, 321);
