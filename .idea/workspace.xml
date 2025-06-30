@@ -4,7 +4,69 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="58744ffc-7c34-4fd8-a0a0-74e9b94d8a79" name="Changes" comment="subindo atualizações" />
+    <list default="true" id="58744ffc-7c34-4fd8-a0a0-74e9b94d8a79" name="Changes" comment="subindo atualizações">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Alura/src/br/com/alura/screenmacth/calculos/CalculadoraDeTempo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Alura/src/br/com/alura/screenmacth/calculos/CalculadoraDeTempo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Alura/src/br/com/alura/screenmacth/calculos/Classificavel.java" beforeDir="false" afterPath="$PROJECT_DIR$/Alura/src/br/com/alura/screenmacth/calculos/Classificavel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Alura/src/br/com/alura/screenmacth/calculos/FiltroRecomendacao.java" beforeDir="false" afterPath="$PROJECT_DIR$/Alura/src/br/com/alura/screenmacth/calculos/FiltroRecomendacao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Alura/src/br/com/alura/screenmacth/modelos/Episodio.java" beforeDir="false" afterPath="$PROJECT_DIR$/Alura/src/br/com/alura/screenmacth/modelos/Episodio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Alura/src/br/com/alura/screenmacth/modelos/Filme.java" beforeDir="false" afterPath="$PROJECT_DIR$/Alura/src/br/com/alura/screenmacth/modelos/Filme.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Alura/src/br/com/alura/screenmacth/modelos/Serie.java" beforeDir="false" afterPath="$PROJECT_DIR$/Alura/src/br/com/alura/screenmacth/modelos/Serie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Alura/src/br/com/alura/screenmacth/modelos/Titulo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Alura/src/br/com/alura/screenmacth/modelos/Titulo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Alura/src/br/com/principal/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/Alura/src/br/com/principal/Principal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Alura/src/br/com/principal/PrincipalComLista.java" beforeDir="false" afterPath="$PROJECT_DIR$/Alura/src/br/com/principal/PrincipalComLista.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Alura/src/cartaoCredito/CartaoCredito.java" beforeDir="false" afterPath="$PROJECT_DIR$/Alura/src/cartaoCredito/CartaoCredito.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Alura/src/cartaoCredito/Compra.java" beforeDir="false" afterPath="$PROJECT_DIR$/Alura/src/cartaoCredito/Compra.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Alura/src/cartaoCredito/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/Alura/src/cartaoCredito/Principal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Alura/src/praticandoAlura/animais/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/Alura/src/praticandoAlura/animais/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Alura/src/praticandoAlura/animais/Cachorro.java" beforeDir="false" afterPath="$PROJECT_DIR$/Alura/src/praticandoAlura/animais/Cachorro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Alura/src/praticandoAlura/animais/Gato.java" beforeDir="false" afterPath="$PROJECT_DIR$/Alura/src/praticandoAlura/animais/Gato.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Alura/src/praticandoAlura/animais/TesteAnimal.java" beforeDir="false" afterPath="$PROJECT_DIR$/Alura/src/praticandoAlura/animais/TesteAnimal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Alura/src/praticandoAlura/areaQuadrada/CalculadoraSalaRetangular.java" beforeDir="false" afterPath="$PROJECT_DIR$/Alura/src/praticandoAlura/areaQuadrada/CalculadoraSalaRetangular.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Alura/src/praticandoAlura/areaQuadrada/CalculoGeometrico.java" beforeDir="false" afterPath="$PROJECT_DIR$/Alura/src/praticandoAlura/areaQuadrada/CalculoGeometrico.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Alura/src/praticandoAlura/areaQuadrada/TesteCalculadoraSalaRetangular.java" beforeDir="false" afterPath="$PROJECT_DIR$/Alura/src/praticandoAlura/areaQuadrada/TesteCalculadoraSalaRetangular.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Alura/src/praticandoAlura/arrayListPessoa/Pessoa.java" beforeDir="false" afterPath="$PROJECT_DIR$/Alura/src/praticandoAlura/arrayListPessoa/Pessoa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Alura/src/praticandoAlura/arrayListPessoa/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/Alura/src/praticandoAlura/arrayListPessoa/Principal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Alura/src/praticandoAlura/arrayProduto/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/Alura/src/praticandoAlura/arrayProduto/Principal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Alura/src/praticandoAlura/arrayProduto/Produto.java" beforeDir="false" afterPath="$PROJECT_DIR$/Alura/src/praticandoAlura/arrayProduto/Produto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Alura/src/praticandoAlura/banco/ContaBancaria.java" beforeDir="false" afterPath="$PROJECT_DIR$/Alura/src/praticandoAlura/banco/ContaBancaria.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Alura/src/praticandoAlura/banco/ContaCorrente.java" beforeDir="false" afterPath="$PROJECT_DIR$/Alura/src/praticandoAlura/banco/ContaCorrente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Alura/src/praticandoAlura/banco/TesteCOnta.java" beforeDir="false" afterPath="$PROJECT_DIR$/Alura/src/praticandoAlura/banco/TesteCOnta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Alura/src/praticandoAlura/br/com/alura/minhasmusicas/modelos/Audio.java" beforeDir="false" afterPath="$PROJECT_DIR$/Alura/src/praticandoAlura/br/com/alura/minhasmusicas/modelos/Audio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Alura/src/praticandoAlura/br/com/alura/minhasmusicas/modelos/MinhasPreferidas.java" beforeDir="false" afterPath="$PROJECT_DIR$/Alura/src/praticandoAlura/br/com/alura/minhasmusicas/modelos/MinhasPreferidas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Alura/src/praticandoAlura/br/com/alura/minhasmusicas/modelos/Musica.java" beforeDir="false" afterPath="$PROJECT_DIR$/Alura/src/praticandoAlura/br/com/alura/minhasmusicas/modelos/Musica.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Alura/src/praticandoAlura/br/com/alura/minhasmusicas/modelos/Podcast.java" beforeDir="false" afterPath="$PROJECT_DIR$/Alura/src/praticandoAlura/br/com/alura/minhasmusicas/modelos/Podcast.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Alura/src/praticandoAlura/br/com/alura/minhasmusicas/principal/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/Alura/src/praticandoAlura/br/com/alura/minhasmusicas/principal/Principal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Alura/src/praticandoAlura/casaMoeda/ConversaoFinanceira.java" beforeDir="false" afterPath="$PROJECT_DIR$/Alura/src/praticandoAlura/casaMoeda/ConversaoFinanceira.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Alura/src/praticandoAlura/casaMoeda/ConversorMoeda.java" beforeDir="false" afterPath="$PROJECT_DIR$/Alura/src/praticandoAlura/casaMoeda/ConversorMoeda.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Alura/src/praticandoAlura/casaMoeda/TesteConversorMoeda.java" beforeDir="false" afterPath="$PROJECT_DIR$/Alura/src/praticandoAlura/casaMoeda/TesteConversorMoeda.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Alura/src/praticandoAlura/collectionsNumeros/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Alura/src/praticandoAlura/collectionsNumeros/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Alura/src/praticandoAlura/conversorTemperatura/ConversorTemperatura.java" beforeDir="false" afterPath="$PROJECT_DIR$/Alura/src/praticandoAlura/conversorTemperatura/ConversorTemperatura.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Alura/src/praticandoAlura/conversorTemperatura/ConversorTemperaturaPadrao.java" beforeDir="false" afterPath="$PROJECT_DIR$/Alura/src/praticandoAlura/conversorTemperatura/ConversorTemperaturaPadrao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Alura/src/praticandoAlura/conversorTemperatura/TesteConversor.java" beforeDir="false" afterPath="$PROJECT_DIR$/Alura/src/praticandoAlura/conversorTemperatura/TesteConversor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Alura/src/praticandoAlura/desvalorizacao/Carro.java" beforeDir="false" afterPath="$PROJECT_DIR$/Alura/src/praticandoAlura/desvalorizacao/Carro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Alura/src/praticandoAlura/desvalorizacao/ModeloCarro.java" beforeDir="false" afterPath="$PROJECT_DIR$/Alura/src/praticandoAlura/desvalorizacao/ModeloCarro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Alura/src/praticandoAlura/desvalorizacao/TesteCarro.java" beforeDir="false" afterPath="$PROJECT_DIR$/Alura/src/praticandoAlura/desvalorizacao/TesteCarro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Alura/src/praticandoAlura/foreach/Carropopular.java" beforeDir="false" afterPath="$PROJECT_DIR$/Alura/src/praticandoAlura/foreach/Carropopular.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Alura/src/praticandoAlura/foreach/Carros.java" beforeDir="false" afterPath="$PROJECT_DIR$/Alura/src/praticandoAlura/foreach/Carros.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Alura/src/praticandoAlura/foreach/CarrosLuxo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Alura/src/praticandoAlura/foreach/CarrosLuxo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Alura/src/praticandoAlura/foreach/TesteCarro.java" beforeDir="false" afterPath="$PROJECT_DIR$/Alura/src/praticandoAlura/foreach/TesteCarro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Alura/src/praticandoAlura/foreach/banco/ContaBancaria.java" beforeDir="false" afterPath="$PROJECT_DIR$/Alura/src/praticandoAlura/foreach/banco/ContaBancaria.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Alura/src/praticandoAlura/foreach/banco/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/Alura/src/praticandoAlura/foreach/banco/Principal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Alura/src/praticandoAlura/foreach/formulas/Circulo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Alura/src/praticandoAlura/foreach/formulas/Circulo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Alura/src/praticandoAlura/foreach/formulas/Forma.java" beforeDir="false" afterPath="$PROJECT_DIR$/Alura/src/praticandoAlura/foreach/formulas/Forma.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Alura/src/praticandoAlura/foreach/formulas/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Alura/src/praticandoAlura/foreach/formulas/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Alura/src/praticandoAlura/foreach/formulas/Quadrado.java" beforeDir="false" afterPath="$PROJECT_DIR$/Alura/src/praticandoAlura/foreach/formulas/Quadrado.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Alura/src/praticandoAlura/foreach/supermecado/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Alura/src/praticandoAlura/foreach/supermecado/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Alura/src/praticandoAlura/foreach/supermecado/Produto.java" beforeDir="false" afterPath="$PROJECT_DIR$/Alura/src/praticandoAlura/foreach/supermecado/Produto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Alura/src/praticandoAlura/foreach/utilizandoLista/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Alura/src/praticandoAlura/foreach/utilizandoLista/main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Alura/src/praticandoAlura/tabuada/Tabuada.java" beforeDir="false" afterPath="$PROJECT_DIR$/Alura/src/praticandoAlura/tabuada/Tabuada.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Alura/src/praticandoAlura/tabuada/TabuadaMultiplicacao.java" beforeDir="false" afterPath="$PROJECT_DIR$/Alura/src/praticandoAlura/tabuada/TabuadaMultiplicacao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Alura/src/praticandoAlura/tabuada/TesteTabuada.java" beforeDir="false" afterPath="$PROJECT_DIR$/Alura/src/praticandoAlura/tabuada/TesteTabuada.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/faculdade/logica-java/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/faculdade/logica-java/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/faculdade/logica-java/src/lista1/Numero1.java" beforeDir="false" afterPath="$PROJECT_DIR$/faculdade/logica-java/src/lista1/Numero1.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -49,7 +111,7 @@
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/guilh/IdeaProjects",
+    "last_opened_file_path": "C:/Users/guilh/IdeaProjects/estudo-POO/Alura",
     "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
 }]]></component>
