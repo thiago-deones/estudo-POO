@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/MSN/MSN.iml" filepath="$PROJECT_DIR$/MSN/MSN.iml" />
       <module fileurl="file://$PROJECT_DIR$/abstracao/abstracao.iml" filepath="$PROJECT_DIR$/abstracao/abstracao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/alura/alura.iml" filepath="$PROJECT_DIR$/alura/alura.iml" />
       <module fileurl="file://$PROJECT_DIR$/autodromo/autodromo.iml" filepath="$PROJECT_DIR$/autodromo/autodromo.iml" />
       <module fileurl="file://$PROJECT_DIR$/calculadora-java/calculadora-java.iml" filepath="$PROJECT_DIR$/calculadora-java/calculadora-java.iml" />
       <module fileurl="file://$PROJECT_DIR$/carro-combate/carro-combate.iml" filepath="$PROJECT_DIR$/carro-combate/carro-combate.iml" />
