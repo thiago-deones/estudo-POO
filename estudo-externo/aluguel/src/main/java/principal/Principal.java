@@ -1,10 +1,10 @@
-package br.com.principal;
+package principal;
 
-import br.com.alura.screenmacth.calculos.CalculadoraDeTempo;
-import br.com.alura.screenmacth.calculos.FiltroRecomendacao;
-import br.com.alura.screenmacth.modelos.Episodio;
-import br.com.alura.screenmacth.modelos.Filme;
-import br.com.alura.screenmacth.modelos.Serie;
+import alura.screenmacth.calculos.CalculadoraDeTempo;
+import alura.screenmacth.calculos.FiltroRecomendacao;
+import alura.screenmacth.modelos.Episodio;
+import alura.screenmacth.modelos.Filme;
+import alura.screenmacth.modelos.Serie;
 
 import java.util.ArrayList;
 

@@ -1,8 +1,8 @@
-package br.com.principal;
+package principal;
 
-import br.com.alura.screenmacth.modelos.Filme;
-import br.com.alura.screenmacth.modelos.Serie;
-import br.com.alura.screenmacth.modelos.Titulo;
+import alura.screenmacth.modelos.Filme;
+import alura.screenmacth.modelos.Serie;
+import alura.screenmacth.modelos.Titulo;
 
 import java.util.ArrayList;
 import java.util.Collections;

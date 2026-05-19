@@ -1,6 +1,6 @@
-package br.com.alura.screenmacth.modelos;
+package alura.screenmacth.modelos;
 
-import br.com.alura.screenmacth.calculos.Classificavel;
+import alura.screenmacth.calculos.Classificavel;
 
 public class Filme extends Titulo implements Classificavel {
     private String diretor;

@@ -1,4 +1,4 @@
-package br.com.alura.screenmacth.modelos;
+package alura.screenmacth.modelos;
 
 public class Titulo implements Comparable<Titulo> {
     private String nome;
