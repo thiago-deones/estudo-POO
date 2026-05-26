@@ -11,5 +11,8 @@
         <module name="aluguel" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="devDojo" target="21" />
+    </bytecodeTargetLevel>
   </component>
 </project>
