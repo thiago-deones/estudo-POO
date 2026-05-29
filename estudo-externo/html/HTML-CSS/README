@@ -1,0 +1,52 @@
+Estudos de Frontend - Aprendizado via YouTube
+Este repositório tem como objetivo documentar e compartilhar os conhecimentos adquiridos em estudos de Frontend, com base em tutoriais e vídeos de alta qualidade encontrados no YouTube.
+
+Aqui, você encontrará uma série de tópicos, projetos e recursos úteis para desenvolver suas habilidades no desenvolvimento frontend.
+
+Objetivo
+O objetivo principal deste repositório é compilar materiais de aprendizado para quem deseja melhorar suas habilidades de frontend. Os vídeos selecionados são provenientes de canais renomados e especializados no desenvolvimento web, e cada link é acompanhado de resumos e notas sobre os conteúdos abordados.
+
+Estrutura do Repositório
+O repositório está organizado por tópicos de estudo, que incluem:
+
+HTML5
+Introdução ao HTML
+Estrutura básica de uma página web
+Formulários, tabelas e listas
+CSS3
+Seletores e propriedades CSS
+Layouts com Flexbox e Grid
+Animações e transições
+JavaScript
+Conceitos básicos de JavaScript
+Manipulação do DOM
+Funções, objetos e arrays
+React
+Introdução ao React
+Componentes e props
+Hooks e estado
+Ferramentas
+Git e GitHub para controle de versão
+Webpack, Babel e outros pacotes de desenvolvimento
+Cada diretório contém uma lista de vídeos de YouTube com um resumo dos tópicos abordados.
+
+Como Usar
+Navegue pelos tópicos listados no repositório.
+Acesse os links dos vídeos do YouTube para assistir aos tutoriais.
+Siga os exercícios e projetos sugeridos nos vídeos para colocar o aprendizado em prática.
+Ao final de cada estudo, adicione seu próprio resumo ou projeto na pasta correspondente.
+Contribuições
+Sinta-se à vontade para contribuir com mais links, vídeos ou recursos! Para contribuir, basta:
+
+Fazer um fork do repositório.
+Criar uma nova branch (git checkout -b nova-contribuicao).
+Adicionar suas modificações.
+Enviar um pull request com suas contribuições.
+Recursos
+Canal [Traversy Media](https://www.youtube.com/c/TraversyMedia)
+Canal [The Net Ninja](https://www.youtube.com/c/TheNetNinja)
+Canal [Academind](https://www.youtube.com/c/Academind)
+Canal [freeCodeCamp](https://www.youtube.com/c/freecodecamp)
+Licença
+Este projeto está licenciado sob a MIT License.
+

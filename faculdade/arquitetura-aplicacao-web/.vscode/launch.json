@@ -1,0 +1,31 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "VendamaisApplication",
+            "request": "launch",
+            "mainClass": "br.com.empresa.vendamais.VendamaisApplication",
+            "projectName": "vendamais"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-CursoApplication<Curso>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.remedios.thiago.CursoApplication",
+            "projectName": "Curso",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-DepartamentoApplication<departamento>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.empresa.departamento.DepartamentoApplication",
+            "projectName": "departamento",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}

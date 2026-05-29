@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Início dos Estudos em JavaScript</title>
+    <style>
+        /* Estilos CSS */
+        body {
+            background-color: rgb(105, 105, 173);
+            color: white;
+            font: normal 20pt Arial, Helvetica, sans-serif;
+            text-align: center;
+            padding: 50px;
+        }
+        h1 {
+            color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <!-- Conteúdo HTML -->
+    <h1>Olá, mundo!</h1>
+    <p>Este é um exemplo básico para treinar HTML, CSS e JavaScript.</p>
+
+    <script>
+        // Código JavaScript
+        let nome = window.prompt('Qual é o seu nome?');
+
+        if (nome && nome.trim() !== "") {
+            window.alert('Seja muito bem-vindo(a), ' + nome + '!');
+        } else {
+            window.alert('Olá, visitante! Você não informou o nome.');
+        }
+    </script>
+</body>
+</html>

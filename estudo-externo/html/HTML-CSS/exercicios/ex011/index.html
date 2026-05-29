@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias dinamicas</title>
+</head>
+<body>
+    <h1>Imagem dinamicas</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplismente aumente e diminua o tamanho do seu navegador 
+    </p>
+
+    <picture>
+        <source media="(max-width: 700px)" srcset="img/Pequena.png" type="image/png">
+        <source media="(max-width: 1000px)" srcset="img/Media.png" type="image/png">
+        <img src="img/Grande.png" alt="imagem flexcivel.">
+    </picture>
+
+    <h2>Reproduzir musica</h2>
+    <p>Vamos aprender a reproduzir maudios em HTML</p>
+    <audio preload="auto" src="midia/End Of Valor - Density & Time.mp3" controls autoplay ></audio>
+</body>
+</html>

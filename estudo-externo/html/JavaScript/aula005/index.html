@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciando estudos em DOM</title>
+    <style>
+        body {
+            background-color: rgb(12, 54, 54);
+            font: normal 20pt Arial, sans-serif;
+            color: white;
+            padding: 30px;
+        }
+
+        #msg {
+            margin-top: 20px;
+            padding: 20px;
+            background-color: darkslategray;
+            border: 2px solid white;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+    </style>
+</head>
+<body>
+    <h1>Iniciando estudos de DOM</h1>
+    <p>Aqui vai o resultado:</p>
+    <p>Aprendendo a usar o <strong>DOM</strong> em JavaScript.</p>
+    <div id="msg">Clique em mim</div>
+
+    <script>
+        // Pegando o primeiro parágrafo da página
+        let p1 = document.getElementsByTagName('p')[0];
+        p1.style.color = 'orange'; // Altera a cor do texto
+
+        // Pegando a div com ID 'msg' usando querySelector
+        let divMsg = document.querySelector('div#msg');
+        divMsg.style.backgroundColor = 'blue';
+
+        // Adicionando interatividade com clique
+        divMsg.addEventListener('click', function () {
+            divMsg.innerText = 'Você clicou em mim!';
+            divMsg.style.backgroundColor = 'green';
+        });
+    </script>
+</body>
+</html>
