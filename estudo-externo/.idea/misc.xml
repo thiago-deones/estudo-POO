@@ -8,11 +8,14 @@
         <option value="$PROJECT_DIR$/orientacao-objeto/loja-aluguel/pom.xml" />
         <option value="$PROJECT_DIR$/aluguel/pom.xml" />
         <option value="$PROJECT_DIR$/devDojo/pom.xml" />
+        <option value="$PROJECT_DIR$/transacoes/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
+        <option value="$PROJECT_DIR$/java/transacoes/pom.xml" />
         <option value="$PROJECT_DIR$/loja-aluguel/pom.xml" />
+        <option value="$PROJECT_DIR$/transacoes/pom.xml" />
       </set>
     </option>
   </component>

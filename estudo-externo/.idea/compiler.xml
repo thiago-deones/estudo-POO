@@ -6,13 +6,14 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="loja-aluguel" />
-        <module name="dados" />
-        <module name="aluguel" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="aluguel" target="21" />
+      <module name="dados" target="21" />
       <module name="devDojo" target="21" />
+      <module name="loja-aluguel" target="21" />
+      <module name="transacoes" target="21" />
     </bytecodeTargetLevel>
   </component>
 </project>
