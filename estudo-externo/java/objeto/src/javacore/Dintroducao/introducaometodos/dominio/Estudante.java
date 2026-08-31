@@ -1,4 +1,4 @@
-package javacore.introducao.introducaoclasses.dominio;
+package javacore.Dintroducao.introducaometodos.dominio;
 
 public class Estudante {
     public String nome;

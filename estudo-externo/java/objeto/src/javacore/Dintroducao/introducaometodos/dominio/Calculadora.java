@@ -1,4 +1,4 @@
-package javacore.introducao.introducaometodos.dominio;
+package javacore.Dintroducao.introducaometodos.dominio;
 
 public class Calculadora {
     public void somaDoisNumeros(){

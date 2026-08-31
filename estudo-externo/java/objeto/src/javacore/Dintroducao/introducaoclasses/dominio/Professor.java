@@ -1,4 +1,4 @@
-package javacore.introducao.introducaoclasses.dominio;
+package javacore.Dintroducao.introducaoclasses.dominio;
 
 public class Professor {
     public String nome;
