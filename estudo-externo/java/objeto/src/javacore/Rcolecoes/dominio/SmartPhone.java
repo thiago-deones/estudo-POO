@@ -22,6 +22,19 @@ public class SmartPhone {
         return seriaNumber != null && seriaNumber.equals(smartPhone.seriaNumber);
     }
 
+    @Override
+    public int hashCode() {
+        return seriaNumber == null ? 0 : this.seriaNumber.hashCode();
+    }
+
+    @Override
+    public String toString() {
+        return "SmartPhone{" +
+                "seriaNumber='" + seriaNumber + '\'' +
+                ", marca='" + marca + '\'' +
+                '}';
+    }
+
     public String getSeriaNumber() {
         return seriaNumber;
     }

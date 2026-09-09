@@ -7,45 +7,40 @@ public class Teste {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
-        double N1 = input.nextDouble();
-        double N2 = input.nextDouble();
-        double N3 = input.nextDouble();
-        double N4 = input.nextDouble();
-
-        N1 *= 2;
-        N2 *= 3;
-        N3 *= 4;
-        N4 *= 1;
-        double media = (N1 + N2 + N3 + N4) / 10;
-
-        if (media >= 7) {
-            System.out.printf("Media: %.1f%n", media);
-            System.out.println("Aluno aprovado.");
-        } else if (media < 5) {
-            System.out.printf("Media: %.1f%n", media);
-            System.out.println("Aluno reprovado.");
-        } else {
-            System.out.printf("Media: %.1f%n", media);
-            System.out.println("Aluno em exame.");
-            double exame = input.nextDouble();
-            double notaFInal = (exame + media) / 2;
-            if (notaFInal >= 5) {
-                System.out.printf("Nota do exame: %.1f%n", exame);
-                System.out.println("Aluno aprovado.");
-                System.out.printf("Media final: %.1f%n", notaFInal);
-            } else {
-                System.out.println("Aluno reprovado.");
-                System.out.printf("Media final: %.1f%n", notaFInal);
+        while (true) {
+            int kConsultas = input.nextInt();
+            if (kConsultas == 0) {
+                break;
             }
 
+            //leste-oeste
+            int nCordenada = input.nextInt();
+            int mCordenada = input.nextInt();
+
+            for (int i = 0; i < kConsultas; i++) {
+                //norte-sul
+                int xCordenada = input.nextInt();
+                int yCordenada = input.nextInt();
+                quadrante(nCordenada, mCordenada, xCordenada, yCordenada);
+            }
         }
 
         input.close();
     }
 
-    public static void tempoJogo(double N1, double N2, double N3, double N4) {
-
-
+    public static void quadrante(int n, int m, int x, int y) {
+        if (x == n || y == m) {
+            System.out.println("divisa");
+        } else if (x > n && y > m) {
+            System.out.println("NE");
+        } else if (x < n && y > m) {
+            System.out.println("NO");
+        } else if (x > n && y < m) {
+            System.out.println("SE");
+        } else {
+            System.out.println("SO");
+        }
     }
+
 
 }
