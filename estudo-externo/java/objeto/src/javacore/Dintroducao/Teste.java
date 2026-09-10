@@ -6,39 +6,23 @@ import java.util.Scanner;
 public class Teste {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
+        int a = input.nextInt();
+        int b = input.nextInt();
 
-        while (true) {
-            int kConsultas = input.nextInt();
-            if (kConsultas == 0) {
-                break;
-            }
-
-            //leste-oeste
-            int nCordenada = input.nextInt();
-            int mCordenada = input.nextInt();
-
-            for (int i = 0; i < kConsultas; i++) {
-                //norte-sul
-                int xCordenada = input.nextInt();
-                int yCordenada = input.nextInt();
-                quadrante(nCordenada, mCordenada, xCordenada, yCordenada);
-            }
-        }
-
+        teste(a, b);
         input.close();
     }
 
-    public static void quadrante(int n, int m, int x, int y) {
-        if (x == n || y == m) {
-            System.out.println("divisa");
-        } else if (x > n && y > m) {
-            System.out.println("NE");
-        } else if (x < n && y > m) {
-            System.out.println("NO");
-        } else if (x > n && y < m) {
-            System.out.println("SE");
+    public static void teste(int a, int b) {
+        if (a < b) {
+            int temp = b;
+            b = a;
+            a = temp;
+        }
+        if (a % b ==0) {
+            System.out.printf("Sao Mutiplos");
         } else {
-            System.out.println("SO");
+            System.out.printf("Nao sao Mutiplos");
         }
     }
 
